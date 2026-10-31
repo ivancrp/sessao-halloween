@@ -1,0 +1,184 @@
+{
+  "movies": [
+    {
+      "id": "casa-monstro",
+      "title": "A Casa Monstro",
+      "original": "Monster House",
+      "year": 2006,
+      "youtubeId": "yB9vThNAIjs",
+      "mood": "Sustinho",
+      "blurb": "Três vizinhos descobrem que a casa da esquina não é só velha: ela engole o que chega perto."
+    },
+    {
+      "id": "abracadabra",
+      "title": "Abracadabra",
+      "original": "Hocus Pocus",
+      "year": 1993,
+      "youtubeId": "F4e6YQFrt1s",
+      "mood": "Bruxas",
+      "blurb": "As irmãs Sanderson acordam no Halloween, e um grupo de crianças é a única chance de Salem."
+    },
+    {
+      "id": "abracadabra-2",
+      "title": "Abracadabra 2",
+      "original": "Hocus Pocus 2",
+      "year": 2022,
+      "youtubeId": "idc0EOmKr30",
+      "mood": "Bruxas",
+      "blurb": "As bruxas voltam para mais uma noite, e três amigas precisam segurar a magia até o sol nascer."
+    },
+    {
+      "id": "hotel",
+      "title": "Hotel Transilvânia",
+      "original": "Hotel Transylvania",
+      "year": 2012,
+      "youtubeId": "q4RK3jY7AVk",
+      "mood": "Bem leve",
+      "blurb": "O Drácula mantém um hotel só para monstros, até um humano entrar na festa da filha."
+    },
+    {
+      "id": "hotel-2",
+      "title": "Hotel Transilvânia 2",
+      "original": "Hotel Transylvania 2",
+      "year": 2015,
+      "youtubeId": "T3nqmGgnJe8",
+      "mood": "Bem leve",
+      "blurb": "O neto do Drácula ainda não virou morcego, e a família inteira tenta ajudar."
+    },
+    {
+      "id": "jack",
+      "title": "O Estranho Mundo de Jack",
+      "original": "The Nightmare Before Christmas",
+      "year": 1993,
+      "youtubeId": "wr6N_hZyBCk",
+      "mood": "Musical",
+      "blurb": "Jack, o rei das abóboras, encontra o Natal e decide celebrar do jeito dele."
+    },
+    {
+      "id": "coraline",
+      "title": "Coraline e o Mundo Secreto",
+      "original": "Coraline",
+      "year": 2009,
+      "youtubeId": "vlv4yzsmwyI",
+      "mood": "Sustinho",
+      "blurb": "Coraline acha uma porta para uma casa igual à dela, com um detalhe estranho nos olhos."
+    },
+    {
+      "id": "frankenweenie",
+      "title": "Frankenweenie",
+      "original": "Frankenweenie",
+      "year": 2012,
+      "youtubeId": "qLtYoGUxs5g",
+      "mood": "Bem leve",
+      "blurb": "Victor sente tanta falta do cachorro Sparky que tenta um experimento para tê-lo de volta."
+    },
+    {
+      "id": "paranorman",
+      "title": "ParaNorman",
+      "original": "ParaNorman",
+      "year": 2012,
+      "youtubeId": "hgwSpajMw3s",
+      "mood": "Sustinho",
+      "blurb": "Norman vê gente que ninguém mais vê, e a cidade precisa dessa coragem numa noite de maldição."
+    },
+    {
+      "id": "casper",
+      "title": "Casper",
+      "original": "Casper",
+      "year": 1995,
+      "youtubeId": "e8RATQJIngU",
+      "mood": "Fantasmas",
+      "blurb": "Casper quer um amigo de verdade, enquanto os tios fantasmas bagunçam a mansão."
+    },
+    {
+      "id": "addams",
+      "title": "A Família Addams",
+      "original": "The Addams Family",
+      "year": 2019,
+      "youtubeId": "xFCrR3Uw6Mk",
+      "mood": "Bem leve",
+      "blurb": "A família mais diferente da rua só quer passar o Halloween em paz."
+    },
+    {
+      "id": "addams-2",
+      "title": "A Família Addams 2",
+      "original": "The Addams Family 2",
+      "year": 2021,
+      "youtubeId": "Kd82bSBDE84",
+      "mood": "Bem leve",
+      "blurb": "Gomez e Mortícia colocam todo mundo num trailer assombrado para uma viagem em família."
+    },
+    {
+      "id": "noiva",
+      "title": "A Noiva Cadáver",
+      "original": "Corpse Bride",
+      "year": 2005,
+      "youtubeId": "EcrreL7Z98M",
+      "mood": "Musical",
+      "blurb": "Victor ensaia os votos do casamento e acaba noivo de uma noiva de outro mundo."
+    },
+    {
+      "id": "coco",
+      "title": "Coco",
+      "original": "Coco",
+      "year": 2017,
+      "youtubeId": "xlnPHQ3TLX8",
+      "mood": "Família",
+      "blurb": "No Dia dos Mortos, Miguel entra na terra dos lembrados para conhecer a história da família."
+    },
+    {
+      "id": "wallace",
+      "title": "Wallace e Gromit: A Maldição do Coelhão",
+      "original": "The Curse of the Were-Rabbit",
+      "year": 2005,
+      "youtubeId": "I5R5VC84gA4",
+      "mood": "Bem leve",
+      "blurb": "Wallace e Gromit precisam proteger as hortas do bairro de um coelho enorme e peludo."
+    },
+    {
+      "id": "goosebumps",
+      "title": "Goosebumps: Monstros e Arrepios",
+      "original": "Goosebumps",
+      "year": 2015,
+      "youtubeId": "7Cn716jv61s",
+      "mood": "Sustinho",
+      "blurb": "Os monstros dos livros de Goosebumps saem das páginas e a cidade vira a história."
+    },
+    {
+      "id": "relogio",
+      "title": "A Casa com um Relógio nas Paredes",
+      "original": "The House with a Clock in Its Walls",
+      "year": 2018,
+      "youtubeId": "uIlx5-aGq_A",
+      "mood": "Magia",
+      "blurb": "Lewis vai morar com o tio numa casa mágica que esconde um relógio dentro das paredes."
+    },
+    {
+      "id": "livro",
+      "title": "O Livro da Vida",
+      "original": "The Book of Life",
+      "year": 2014,
+      "youtubeId": "_i69CJc1BgE",
+      "mood": "Família",
+      "blurb": "Manolo atravessa o mundo dos mortos, de violão na mão, para voltar para Maria."
+    },
+    {
+      "id": "scooby",
+      "title": "Scooby-Doo",
+      "original": "Scooby-Doo",
+      "year": 2002,
+      "youtubeId": "o3dbeI0BU1k",
+      "mood": "Mistério",
+      "blurb": "A turma da Mistério S.A. se reencontra numa ilha cheia de fantasias e sustos."
+    },
+    {
+      "id": "monstros",
+      "title": "Monstros S.A.",
+      "original": "Monsters, Inc.",
+      "year": 2001,
+      "youtubeId": "CGbgaHoapFM",
+      "mood": "Bem leve",
+      "blurb": "Sulley e Mike trabalham assustando crianças, até uma menina aparecer na fábrica de monstros."
+    }
+  ]
+}

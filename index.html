@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sessão de Halloween</title>
+    <meta
+      name="description"
+      content="Vote no filme de Halloween da sessão de hoje em casa. Vinte filmes para crianças, com trailer."
+    />
+    <meta name="theme-color" content="#160c24" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="sky" aria-hidden="true"></div>
+    <div class="page">
+      <header class="hero">
+        <p class="kicker">31 de outubro · sessão em casa</p>
+        <h1>O filme de Halloween de hoje</h1>
+        <p class="lede">
+          Vinte filmes para assistir com as crianças. Cada aparelho vota uma vez,
+          e o mais votado entra na sessão desta noite.
+        </p>
+      </header>
+      <div class="now" id="now" aria-live="polite">Carregando a sessão...</div>
+      <section class="ranking" id="ranking" aria-label="Placar da sessão"></section>
+      <p class="status" id="status" role="status"></p>
+      <main class="grid" id="grid">
+        <p class="loading">Abrindo a prateleira de filmes...</p>
+      </main>
+      <footer>
+        <p>
+          Dá para trocar o voto até o filme começar. O trailer abre no card, pelo YouTube.
+        </p>
+      </footer>
+    </div>
+    <noscript>
+      <p class="noscript">Ative o JavaScript para ver os filmes e votar.</p>
+    </noscript>
+    <script src="/js/app.js" defer></script>
+  </body>
+</html>
