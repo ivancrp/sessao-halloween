@@ -28,6 +28,24 @@
       "blurb": "As bruxas voltam para mais uma noite, e três amigas precisam segurar a magia até o sol nascer."
     },
     {
+      "id": "convencao-bruxas",
+      "title": "A Convenção das Bruxas",
+      "original": "The Witches",
+      "year": 1990,
+      "youtubeId": "d_ZyqaN_XNM",
+      "mood": "Bruxas",
+      "blurb": "Um menino e a avó descobrem uma reunião de bruxas com um plano secreto para as crianças."
+    },
+    {
+      "id": "convencao-bruxas-2020",
+      "title": "A Convenção das Bruxas (2020)",
+      "original": "The Witches",
+      "year": 2020,
+      "youtubeId": "9nlhmJF5FNI",
+      "mood": "Bruxas",
+      "blurb": "A avó leva o neto para um hotel e os dois caem bem no meio de uma convenção de bruxas."
+    },
+    {
       "id": "hotel",
       "title": "Hotel Transilvânia",
       "original": "Hotel Transylvania",
