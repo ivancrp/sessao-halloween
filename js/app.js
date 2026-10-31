@@ -60,7 +60,15 @@ function joinNames(names) {
   return `${names.slice(0, -1).join(", ")} e ${names[names.length - 1]}`;
 }
 
+function placarAberto() {
+  return Boolean(state.yourVote);
+}
+
 function renderNow() {
+  if (!placarAberto()) {
+    now.textContent = "Escolhe um filme. A quantidade de votos aparece depois do seu voto.";
+    return;
+  }
   if (state.total === 0) {
     now.textContent = "Ninguém votou ainda. O primeiro voto escolhe o filme da noite.";
     return;
@@ -80,10 +88,12 @@ function renderRanking() {
   title.textContent = "Placar";
   ranking.append(title);
 
-  if (state.total === 0) {
+  if (!placarAberto() || state.total === 0) {
     const empty = document.createElement("p");
     empty.className = "rank-empty";
-    empty.textContent = "A sessão ainda está sem filme. Escolhe um card e vota.";
+    empty.textContent = placarAberto()
+      ? "A sessão ainda está sem filme. Escolhe um card e vota."
+      : "O placar abre depois que você votar.";
     ranking.append(empty);
     return;
   }
@@ -177,14 +187,17 @@ function updateCards() {
     if (!card) continue;
     const count = state.counts[movie.id] || 0;
     const selected = state.yourVote === movie.id;
-    const leading = state.total > 0 && state.leaders.includes(movie.id);
+    const revealed = placarAberto();
+    const leading = revealed && state.total > 0 && state.leaders.includes(movie.id);
     card.classList.toggle("is-yours", selected);
     card.classList.toggle("is-leader", leading);
     const button = card.querySelector("[data-vote]");
     button.disabled = state.pending;
     button.setAttribute("aria-pressed", selected ? "true" : "false");
     button.textContent = selected ? "É o meu voto" : state.yourVote ? "Trocar para esse" : "Quero esse";
-    card.querySelector("[data-count]").textContent = votesLabel(count);
+    const countNode = card.querySelector("[data-count]");
+    countNode.hidden = !revealed;
+    countNode.textContent = revealed ? votesLabel(count) : "";
   }
 }
 
